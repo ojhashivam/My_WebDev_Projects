@@ -1,0 +1,106 @@
+body{
+    margin: 5cm;
+    background-image: url('https://t4.ftcdn.net/jpg/04/60/07/71/360_F_460077135_4MB32u4fUP5tKdqFTFTEdj0S9rjkaCFI.jpg');
+    text-align: center;
+}
+
+
+
+.PL1{
+    display: flex;
+    background-color: rgb(238, 200, 143);
+    margin-left: 3cm;
+    margin-right: 65rem;
+
+}
+.PL2{
+    display: flex;
+    background-color: rgb(238, 200, 143);
+    margin-left: 3cm;
+    margin-right: 65rem;
+    margin-top: 3rem;
+}
+.PL1Score,.PL2Score{
+    color: rgb(183, 14, 14);
+    font-size: 3rem;
+    
+}
+.player1,.player2{
+    margin-right: 3cm;
+    font-family: Helvetica;
+    font-size: larger;
+}
+
+.PL1Curr,.PL2Curr{
+    font-family: Helvetica;
+    font-size: larger;
+}
+
+.btn{
+    display: flex;
+    margin: 3cm;
+}
+
+.newGame{
+    cursor: pointer;
+    font-family: 'Courier New';
+    font-size: larger;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(183, 183, 226);
+}
+
+.rollDice{
+    cursor: pointer;
+    font-family: 'Courier New';
+    font-size: larger;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(183, 183, 226);
+}
+
+.Pass{
+    cursor: pointer;
+    font-family: 'Courier New';
+    font-size: larger;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(183, 183, 226);
+}
+
+.NG,.RD,.PS{
+    padding: 2cm;
+}
+
+.NG{
+    padding-left: 0;
+}
+
+.hidden{
+    display: none;    
+}
+
+.message{
+    text-align: center;
+    font-family: monospace;
+    background-color: rgb(248, 0, 0);
+    font-size: 3rem;
+}
+
+.inactive{
+    background-color: rgb(234, 229, 220);
+}
+h1{
+    color: rgba(124, 226, 148, 0.703);
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1rem;
+}
+
+.PL1Res,.PL2Res{
+    font-size: 3rem;
+    color: rgb(94, 131, 57);
+}
